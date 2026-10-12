@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android project</title>
+    <link rel="stylesheet" href="position.css">
+</head>
+<body>
+    <!-- Promo Banner Component -->
+    <div class="promo-banner">
+        ✨ Introducing Googlebook. <a href="#" class="banner-link">Buy now</a> ✨
+    </div>
+
+    <!-- Sticky Header Navigation -->
+    <header class="header">
+        <div class="container navbar">
+            <div class="logo-area">
+                <svg viewBox="0 0 100 100" class="logo-icon">
+                    <circle cx="50" cy="50" r="40" fill="#3DDC84"/>
+                </svg>
+                <span class="logo-text">android</span>
+            </div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <nav class="nav-menu" id="navMenu">
+                <a href="#" class="nav-link">About</a>
+                <a href="#" class="nav-link">Features</a>
+                <a href="#" class="nav-link">Devices</a>
+                <a href="#" class="nav-link">Learn</a>
+                <a href="#" class="nav-link">Gemini Intelligence</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#" class="btn btn-secondary btn-nav">Shop phones</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-title">Experience the future first on Android.</h1>
+                <p class="hero-subtitle">Android's innovation sets the standard with helpful AI, frequent upgrades, and personalization options.</p>
+                <div class="hero-actions">
+                    <a href="#" class="btn btn-primary">Try Gemini</a>
+                    <a href="#" class="btn btn-secondary">Find your perfect phone</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Feature cards and Voyager promo form can be implemented as shown in the full source files -->
+        <section class="container feature-section">
+            <h2 class="section-title">Explore the latest on Android.</h2>
+            <p>Explore the full source code and structure for the interactive feature grid and registration form in the referenced implementation files.</p>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p> Google LLC. Android is a trademark of Google LLC.</p>
+        </div>
+    </footer>
+    <script src="app.js"></script><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Android Ecosystem | Connected Experience</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Promo Banner Bar -->
+    <div class="promo-banner">
+        ✨ Introducing Googlebook. <a href="#">Buy now</a> ✨
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="main-header">
+        <div class="logo">android</div>
+        
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle Navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <nav class="nav-links" id="navLinks">
+            <a href="#">Why Android</a>
+            <a href="#">AI on Android</a>
+            <a href="#">Android Auto</a>
+            <a href="#">Android XR</a>
+            <a href="#">Android 17</a>
+            <a href="#" class="btn-shop">Shop Phones</a>
+        </nav>
+    </header>
+
+    <!-- Core Dynamic Ecosystem Section -->
+    <section class="ecosystem-section">
+        <div class="ecosystem-container">
+            <!-- Hardware Asset Row -->
+            <div class="ecosystem-video-wrapper">
+                <video autoplay loop muted playsinline class="ecosystem-media">
+                    <source src="https://www.gstatic.com/marketing-cms/e9/87/204dfe204491a250646d74c81da4/row-asset-desktop-samsung-3-1-1440w-2x-av1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+            
+            <!-- Contextual Branding Content -->
+            <div class="ecosystem-content">
+                <h1>Better Together.</h1>
+                <p>Experience the fluid connection between your headset, foldable phone, audio wearables, smart tracking, and Android Auto interface seamlessly.</p>
+                <div class="ecosystem-actions">
+                    <a href="#" class="btn btn-primary">Explore Devices</a>
+                    <a href="#" class="btn btn-outline">See How It Works</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Features Grid -->
+    <section class="features-grid">
+        <div class="feature-card">
+            <h3>Google Messages</h3>
+            <p>Enjoy chatting with everyone. Yes, even with your iPhone friends.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Security</h3>
+            <p>Powerful and proactive protection built right into your Android device.</p>
+        </div>
+        <div class="feature-card">
+            <h3>Find Hub</h3>
+            <p>Locate devices and connect with loved ones quickly and safely.</p>
+        </div>
+    </section>
+
+    <!-- Global Layout Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div>
+                <h4>Accessibility</h4>
+                <a href="#">Vision features</a>
+                <a href="#">Audio features</a>
+                <a href="#">Mobility features</a>
+            </div>
+            <div>
+                <h4>Connect devices</h4>
+                <a href="#">Overview</a>
+                <a href="#">Quick Share</a>
+                <a href="#">Fast Pair</a>
+            </div>
+            <div>
+                <h4>Our ecosystem</h4>
+                <a href="#">Android TV</a>
+                <a href="#">Android Auto</a>
+                <a href="#">Googlebook</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>2026 Google LLC. Android is a trademark of Google LLC.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive Navigation Control -->
+    <script>
+        const menuToggle = document.getElementById('menuToggle');
+        const navLinks = document.getElementById('navLinks');
+
+        menuToggle.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+            menuToggle.classList.toggle('open');
+        })
+
+
+
+    </script>
+</body>
+</html>
